@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * _abs - computes the absolute value of an integer
- * @n: The int is to be operated upon
- *
- * Return: returns an unsignees int value to calling function
+ * @n: integer to check
+ * Return: returns n
  */
+
 int _abs(int n)
 {
 	if (n > 0)
@@ -13,7 +13,7 @@ int _abs(int n)
 	}
 	else
 	{
-		n *= -1
+		n *= -1;
 		return (n);
 	}
 }
