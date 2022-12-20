@@ -5,6 +5,7 @@
  * print_array -Function prints element of array of integers
  * @a: pointer parameter
  * @n: integer variable
+ * Return: void
  */
 
 void print_array(int *a, int n)
